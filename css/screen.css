@@ -32,6 +32,17 @@ img {
   width: 100vw;
 }
 
+#header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#header nav li {
+  display: inline-block;
+  width: 33.333%;
+}
+
 @media screen and (min-width: 600px) {
   #header h1,
   #header nav {
