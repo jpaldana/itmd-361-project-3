@@ -9,6 +9,27 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* ===== BASE STYLES ===== */
 
+html {
+  font-size: 1.5em; /* 24 / 16 = 1.5 */
+  line-height: 1.167em; /* 28 / 24 = 1.167 */
+}
+
+body {
+  padding-top: 2.333em; /* 56 / 24 = 2.333 */
+  padding-left: 1.167em; /* 28 / 24 = 1.167 */
+  padding-right: 1.167em; /* 28 / 24 = 1.167 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding-bottom: 1.167em; /* 28 / 24 = 1.167 */
+}
+
 /* ==== MODULAR STYLES === */
 
 /* ==== LAYOUT STYLES ==== */
@@ -24,7 +45,6 @@ img {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  width: 100vw;
 }
 
 #header h1,
@@ -41,11 +61,12 @@ img {
 #header nav li {
   display: inline-block;
   width: 33.333%;
+  text-align: center;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 640px) {
   #header h1,
   #header nav {
-    width: 50vw;
+    width: 50%;
   }
 }
