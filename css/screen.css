@@ -49,7 +49,8 @@ img {
 
 #header h1,
 #header nav {
-  width: 100vw;
+  font-size: 1.333em;
+  width: 100%;
 }
 
 #header nav ul {
