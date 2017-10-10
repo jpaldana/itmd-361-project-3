@@ -32,6 +32,14 @@ p {
 
 /* ==== LAYOUT STYLES ==== */
 
+#header,
+#content,
+#footer {
+  padding-top: 2.667em; /* 64 / 24 = 2.333 */
+  padding-left: 1.333em; /* 32 / 24 = 1.333 */
+  padding-right: 1.333em; /* 32 / 24 = 1.333 */
+}
+
 img {
   display: block;
   width: 100%;
@@ -54,6 +62,11 @@ img {
   width: 100%;
 }
 
+#header h1 {
+  text-align: center;
+  margin-bottom: 1.333em;
+}
+
 #header nav ul {
   display: flex;
   flex-flow: row wrap;
@@ -66,11 +79,12 @@ img {
   text-align: center;
 }
 
+#header nav li a {
+  color: white;
+}
+
 /* content */
 #content {
-  padding-top: 2.667em; /* 64 / 24 = 2.333 */
-  padding-left: 1.333em; /* 32 / 24 = 1.333 */
-  padding-right: 1.333em; /* 32 / 24 = 1.333 */
 }
 #content p {
   margin-top: 2em;
@@ -80,5 +94,10 @@ img {
   #header h1,
   #header nav {
     width: 50%;
+  }
+
+  #header h1 {
+    text-align: left;
+    margin-bottom: 0;
   }
 }
