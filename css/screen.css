@@ -101,6 +101,11 @@ img {
   margin-top: 2em;
 }
 
+/* footer */
+#footer {
+  padding-top: 1em; /* remove extra spacing */
+}
+
 @media screen and (min-width: 800px) {
   #header h1,
   #header nav {
