@@ -50,6 +50,10 @@ img {
   width: 80%;
   margin: auto;
 }
+figcaption {
+  text-align: center;
+  color: #3c3c3c;
+}
 
 /* header */
 
