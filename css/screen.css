@@ -50,6 +50,9 @@ img {
   width: 80%;
   margin: auto;
 }
+figure {
+  margin: 1em auto;
+}
 figcaption {
   text-align: center;
   color: #3c3c3c;
