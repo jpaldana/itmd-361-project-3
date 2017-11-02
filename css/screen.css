@@ -101,6 +101,12 @@ figcaption {
   color: white;
 }
 
+#home .link-home,
+#resume .link-resume,
+#interests .link-interests {
+  background-color: #5f5f5f;
+}
+
 /* content */
 
 #content h2 {
