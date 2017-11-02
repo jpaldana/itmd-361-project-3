@@ -99,6 +99,7 @@ figcaption {
 
 #header nav li a {
   color: white;
+  text-decoration: none;
 }
 
 #home .link-home,
