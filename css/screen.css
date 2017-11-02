@@ -102,10 +102,10 @@ figcaption {
   text-decoration: none;
 }
 
-#home .link-home,
-#resume .link-resume,
-#interests .link-interests {
-  background-color: #5f5f5f;
+#home .link-home a,
+#resume .link-resume a,
+#interests .link-interests a {
+  color: #819beb;
 }
 
 /* content */
