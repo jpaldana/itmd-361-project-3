@@ -36,6 +36,7 @@ nav {
 }
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.333em; /* 32 / 24 = 1.333 */
 }
 
 /* ==== MODULAR STYLES === */
