@@ -156,6 +156,9 @@ figcaption {
   margin-left: 1em;
   margin-bottom: 1em;
 }
+#content li {
+  line-height: 1.333em;
+}
 
 /* footer */
 #footer {
