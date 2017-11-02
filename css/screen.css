@@ -134,6 +134,8 @@ figcaption {
 #footer {
   padding-top: 1em; /* remove extra spacing */
   padding-bottom: 3em; /* add extra spacing */
+  background-color: #3c3c3c;
+  color: white;
 }
 
 /* page-specific */
