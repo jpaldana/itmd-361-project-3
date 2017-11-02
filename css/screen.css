@@ -133,6 +133,7 @@ figcaption {
 /* footer */
 #footer {
   padding-top: 1em; /* remove extra spacing */
+  padding-bottom: 3em; /* add extra spacing */
 }
 
 /* page-specific */
