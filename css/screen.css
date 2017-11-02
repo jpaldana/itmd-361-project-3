@@ -66,15 +66,20 @@ figcaption {
 
 /* header */
 
-/* start flexbox */
+/* shared */
+#header {
+  background-color: #3c3c3c;
+  color: white;
+  padding: 1.333em; /* 32 / 24 = 1.333 */
+}
+/* end shared */
 
+/* start flexbox */
 .flexbox #header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  background-color: #3c3c3c;
-  color: white;
-  padding: 1.333em; /* 32 / 24 = 1.333 */
+  padding-bottom: 1.5em;
 }
 
 .flexbox #header nav ul {
@@ -82,8 +87,26 @@ figcaption {
   flex-flow: row wrap;
   justify-content: space-around;
 }
-
 /* end flexbox */
+
+/* legacy float */
+#header {
+  padding-bottom: 4.75em; /* add spacing between h1 and nav links in mobile view */    
+}
+#header ul {
+  width: 100%;
+}
+#header nav li {
+  float: left;
+}
+
+#header h1 {
+  float: left;
+}
+#header nav {
+  float: right;
+}
+/* end legacy float */
 
 #header h1,
 #header nav {
@@ -170,6 +193,10 @@ figcaption {
   #header h1 {
     text-align: left;
     margin-bottom: 0;
+  }
+
+  #header {
+    padding-bottom: 2.75em; /* add spacing between h1 and nav links in mobile view */    
   }
 
   img {
