@@ -75,6 +75,8 @@ figcaption {
 }
 #header nav li {
   float: left;
+  width: 33.333%;
+  text-align: center;
 }
 
 #header h1 {
@@ -106,11 +108,6 @@ figcaption {
 #header nav {
   font-size: 1.333em;
   width: 100%;
-}
-
-#header nav li {
-  width: 33.333%;
-  text-align: center;
 }
 
 #header nav li a {
