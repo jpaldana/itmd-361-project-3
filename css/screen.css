@@ -224,7 +224,7 @@ figcaption {
   article {
     padding: 0 6.25%; /* 50 / 800 = 0.0625 */
   }
-  #content .column {
+  #content.column {
     width: 56.25%; /* 450 / 800 = 0.5625 */
   }
 }
