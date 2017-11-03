@@ -206,7 +206,7 @@ figcaption {
     |  [     CONTENT      ]  [ IMAGE ]  |
     |  |       |  |       |  |       |  |
   */
-  article {
+  #content {
     padding-left: 6.25%; /* 50 / 800 = 0.0625 */
     padding-right: 6.25%; /* 50 / 800 = 0.0625 */
   }
@@ -226,5 +226,12 @@ figcaption {
   #interests section,
   #interests #footer {
     clear: both;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  #content {
+    padding-left: 13.6363%; /* 150 / 1100 = 0.136363 */
+    padding-right: 13.6363%; /* 150 / 1100 = 0.727272 */
   }
 }
