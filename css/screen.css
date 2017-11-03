@@ -63,31 +63,11 @@ figcaption {
 
 /* header */
 
-/* shared */
+/* shared + legacy */
 #header {
   background-color: #3c3c3c;
   color: white;
   padding: 1.333em; /* 32 / 24 = 1.333 */
-}
-/* end shared */
-
-/* start flexbox */
-.flexbox #header {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  padding-bottom: 1.5em;
-}
-
-.flexbox #header nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-/* end flexbox */
-
-/* legacy float */
-#header {
   padding-bottom: 4.75em; /* add spacing between h1 and nav links in mobile view */    
 }
 #header ul {
@@ -103,7 +83,22 @@ figcaption {
 #header nav {
   float: right;
 }
-/* end legacy float */
+/* end shared + legacy */
+
+/* start flexbox */
+.flexbox #header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-bottom: 1.5em;
+}
+
+.flexbox #header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+/* end flexbox */
 
 #header h1,
 #header nav {
