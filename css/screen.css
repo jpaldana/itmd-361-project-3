@@ -63,7 +63,6 @@ figcaption {
 
 /* header */
 
-/* shared + legacy */
 #header {
   background-color: #3c3c3c;
   color: white;
@@ -87,12 +86,15 @@ figcaption {
 #header nav {
   float: right;
 }
-/* end shared + legacy */
 
 #header h1,
 #header nav {
   font-size: 1.333em;
   width: 100%;
+}
+
+#footer a {
+  color: #819beb;
 }
 
 #header nav li a {
@@ -132,15 +134,12 @@ figcaption {
 }
 
 /* footer */
+
 #footer {
   padding-top: 1em; /* remove extra spacing */
   padding-bottom: 3em; /* add extra spacing */
   background-color: #3c3c3c;
   color: white;
-}
-
-#footer a {
-  color: #819beb;
 }
 
 /* start flexbox */
