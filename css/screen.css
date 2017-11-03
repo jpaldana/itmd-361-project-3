@@ -203,13 +203,28 @@ figcaption {
      50   200   50   200   50   200   50
     |  |       |  |       |  |       |  |
     |  |       |  |       |  |       |  |
-    [        CONTENT         ][  IMAGES ]
+    |  [     CONTENT      ]  [ IMAGE ]  |
     |  |       |  |       |  |       |  |
   */
   article {
-    padding: 0 6.25%; /* 50 / 800 = 0.0625 */
+    padding-left: 6.25%; /* 50 / 800 = 0.0625 */
+    padding-right: 6.25%; /* 50 / 800 = 0.0625 */
   }
-  #content.column {
+  #interests #content p,
+  #interests #content aside {
     width: 56.25%; /* 450 / 800 = 0.5625 */
+    margin-right: 6.25%; /* 50 / 800 = 0.0625 */
+    float: left;
+  }
+  #interests #content figure,
+  #interests #content ul {
+    width: 25%; /* 200 / 800 = 0.25 */
+    float: right;
+    display: block;
+    clear: right;
+  }
+  #interests section,
+  #interests #footer {
+    clear: both;
   }
 }
