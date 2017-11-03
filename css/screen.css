@@ -127,7 +127,7 @@ figcaption {
   margin-left: 1em;
   margin-bottom: 1em;
 }
-#content li {
+#content ul li {
   line-height: 1.333em;
 }
 
