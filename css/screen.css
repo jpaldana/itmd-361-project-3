@@ -60,6 +60,7 @@ figure {
 figcaption {
   text-align: center;
   color: #3c3c3c;
+  font-size: 0.75em;
 }
 
 /* header */
@@ -240,9 +241,6 @@ figcaption {
   #interests section,
   #interests #footer {
     clear: both;
-  }
-  #interests figcaption {
-    font-size: 0.75em;
   }
 }
 
