@@ -17,9 +17,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-size: 1.5em; /* 24 / 16 = 1.5 */
   line-height: 1.333em; /* 32 / 24 = 1.333 */
-}
-
-body {
   background: #efefef;
   color: black;
 }
