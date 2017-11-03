@@ -79,6 +79,7 @@ figcaption {
 }
 
 #header h1 {
+  font-size: 1.333em;
   text-align: center;
   margin-bottom: 0.75em; /* add spacing between h1 and nav links in mobile view */
   float: left;
@@ -89,7 +90,6 @@ figcaption {
 
 #header h1,
 #header nav {
-  font-size: 1.333em;
   width: 100%;
 }
 
