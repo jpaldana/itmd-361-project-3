@@ -203,7 +203,7 @@ figcaption {
      50   200   50   200   50   200   50
     |  |       |  |       |  |       |  |
     |  |       |  |       |  |       |  |
-    |  [     CONTENT      ]  [ IMAGE ]  |
+    |  [     CONTENT      ][  IMAGE  ]  |
     |  |       |  |       |  |       |  |
   */
   #content {
@@ -219,7 +219,7 @@ figcaption {
   }
   #interests #content figure,
   #interests #content ul {
-    width: 25%; /* 200 / 800 = 0.25 */
+    width: 31.25%; /* 250 / 800 = 0.3125 */
     float: right;
     display: block;
     clear: right;
@@ -227,6 +227,9 @@ figcaption {
   #interests section,
   #interests #footer {
     clear: both;
+  }
+  #interests figcaption {
+    font-size: 0.75em;
   }
 }
 
