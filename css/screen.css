@@ -175,6 +175,11 @@ figcaption {
   margin-left: 1em;
 }
 
+#interests #baking > aside {
+  font-size: 0.75em;
+  color: #3c3c3c;
+}
+
 @media screen and (min-width: 500px) {
   img {
     max-width: 80%;
