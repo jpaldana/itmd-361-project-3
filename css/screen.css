@@ -211,4 +211,20 @@ figcaption {
     max-height: 50vh;
     width: auto;
   }
+
+  /*
+    3-column grid for content
+    800px total
+     50   200   50   200   50   200   50
+    |  |       |  |       |  |       |  |
+    |  |       |  |       |  |       |  |
+    [        CONTENT         ][  IMAGES ]
+    |  |       |  |       |  |       |  |
+  */
+  article {
+    padding: 0 6.25%; /* 50 / 800 = 0.0625 */
+  }
+  #content .column {
+    width: 56.25%; /* 450 / 800 = 0.5625 */
+  }
 }
