@@ -7,5 +7,12 @@
 $.noConflict();
 
 (function($) {
-  
+
+  $(document).ready(function() {
+    /* add dynamic scroll-to-top button on the bottom right of the page */
+    var button = $('<button>').attr('id', 'btn-scrolltop');
+
+    $('body').append(button);
+  });
+
 })(jQuery);
