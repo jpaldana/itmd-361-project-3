@@ -167,6 +167,19 @@ figcaption {
 
 /* page-specific */
 
+#modal-image img {
+  max-height: 100%;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
 /* home */
 #home figure img {
   border-radius: 50%;
@@ -213,22 +226,10 @@ figcaption {
   text-align: center;
 }
 #modal-image:before {
-  content: 'Click anywhere to close this window';
+  content: "Click anywhere to close this window";
 }
 #modal-image figure {
   margin: 0;
-}
-#modal-image img {
-  max-height: 100%;  
-  max-width: 100%; 
-  width: auto;
-  height: auto;
-  position: absolute;  
-  top: 0;  
-  bottom: 0;  
-  left: 0;  
-  right: 0;  
-  margin: auto;
 }
 
 @media screen and (min-width: 500px) {
