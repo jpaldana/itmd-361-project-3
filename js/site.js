@@ -42,12 +42,14 @@ $.noConflict();
 
     $('img').on('click', function() {
       var src = $(this).attr('data-src');
-      modalImage(src);
+      var caption = $(this).parent().children('figcaption').text();
+      modalImage(src, caption);
     });
 
-    function modalImage(src) {
+    function modalImage(src, caption) {
       $('#modal-image img').attr('src', src)
         .attr('alt', 'Modal image of ' + src);
+      $('#modal-image figcaption').text(caption);
       $(modal).removeClass('el-hidden');
     }
 
