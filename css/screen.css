@@ -181,7 +181,8 @@ figcaption {
 }
 
 /* home */
-#home figure img {
+#home figure img,
+#resume figure img {
   border-radius: 50%;
   max-height: 25vh; /* to make sure it's not too big */
 }
