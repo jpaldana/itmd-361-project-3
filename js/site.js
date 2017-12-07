@@ -10,7 +10,25 @@ $.noConflict();
 
   $(document).ready(function() {
     /* add dynamic scroll-to-top button on the bottom right of the page */
-    var button = $('<button>').attr('id', 'btn-scrolltop');
+    var button = $('<button>')
+      .attr('id', 'btn-scrolltop')
+      .addClass('el-hidden');
+
+    $(button).on('click', function() {
+      $('html, body').animate({
+        scrollTop: 0
+      }, 750);
+    });
+
+    $(window).on('scroll', function() {
+      var distance = $(this).scrollTop();
+      if (distance >= 700) {
+        $(button).removeClass('el-hidden');
+      }
+      else {
+        $(button).addClass('el-hidden')
+      }
+    });
 
     $('body').append(button);
   });

@@ -182,6 +182,20 @@ figcaption {
   color: #3c3c3c;
 }
 
+/* jquery/extras */
+#btn-scrolltop {
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+}
+#btn-scrolltop:before {
+  content: "\039b "; /* uppercase lambda */
+}
+.el-hidden {
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+}
+
 @media screen and (min-width: 500px) {
   img {
     max-width: 80%;
