@@ -189,7 +189,12 @@ figcaption {
   right: 2em;
 }
 #btn-scrolltop:before {
-  content: "\039b "; /* uppercase lambda */
+  content: "\039b"; /* uppercase lambda */
+}
+#btn-scrolltop:after {
+  content: "return";
+  display: block;
+  font-size: 0.75em;
 }
 .el-hidden {
   transition: all 0.2s ease-in-out;
