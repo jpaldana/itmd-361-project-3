@@ -41,7 +41,7 @@ $.noConflict();
     });
 
     $('img').on('click', function() {
-      var src = $(this).attr('src');
+      var src = $(this).attr('data-src');
       modalImage(src);
     });
 
