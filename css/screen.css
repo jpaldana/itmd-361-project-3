@@ -282,22 +282,23 @@ figcaption {
     padding-left: 6.25%; /* 50 / 800 = 0.0625 */
     padding-right: 6.25%; /* 50 / 800 = 0.0625 */
   }
-  #interests #content p,
-  #interests #content aside {
+  #content p,
+  #content aside {
     width: 56.25%; /* 450 / 800 = 0.5625 */
     margin-right: 6.25%; /* 50 / 800 = 0.0625 */
     float: left;
     margin-bottom: 2em;
   }
-  #interests #content figure,
+  #content figure,
+  #home #content ul,
   #interests #content ul {
     width: 31.25%; /* 250 / 800 = 0.3125 */
     float: right;
     display: block;
     clear: right;
   }
-  #interests section,
-  #interests #footer {
+  section,
+  #footer {
     clear: both;
   }
 }
@@ -305,6 +306,6 @@ figcaption {
 @media screen and (min-width: 1100px) {
   #content {
     padding-left: 13.6363%; /* 150 / 1100 = 0.136363 */
-    padding-right: 13.6363%; /* 150 / 1100 = 0.727272 */
+    padding-right: 13.6363%; /* 150 / 1100 = 0.136363 */
   }
 }
