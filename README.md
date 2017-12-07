@@ -1,3 +1,3 @@
-# itmd-361-project-2
+# itmd-361-project-3
 
-Project 2 Website Draft for ITMD361.
+Project 3 Website for ITMD361.
