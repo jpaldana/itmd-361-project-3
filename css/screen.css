@@ -19,6 +19,7 @@ html {
   line-height: 1.333em; /* 32 / 24 = 1.333 */
   background: #efefef;
   color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1,
@@ -32,7 +33,6 @@ nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 p {
-  font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 1.333em; /* 32 / 24 = 1.333 */
 }
 
