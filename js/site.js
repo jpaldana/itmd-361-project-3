@@ -30,7 +30,29 @@ $.noConflict();
       }
     });
 
-    $('body').append(button);
+    /* add click event handlers for images */
+    var modal = $('<aside>')
+      .attr('id', 'modal-image')
+      .addClass('el-hidden');
+    modal.append("<figure><img src='#' alt='Placeholder' /><figcaption></figcaption></figure>");
+    
+    $(modal).on('click', function() {
+      $(this).addClass('el-hidden');
+    });
+
+    $('img').on('click', function() {
+      var src = $(this).attr('src');
+      modalImage(src);
+    });
+
+    function modalImage(src) {
+      $('#modal-image img').attr('src', src)
+        .attr('alt', 'Modal image of ' + src);
+      $(modal).removeClass('el-hidden');
+    }
+
+    $('body').append(button)
+      .append(modal);
   });
 
 })(jQuery);

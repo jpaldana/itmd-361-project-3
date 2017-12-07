@@ -53,6 +53,7 @@ img {
   max-width: 80%;
   height: auto;
   margin: auto;
+  cursor: pointer;
 }
 figure {
   margin: 1em auto;
@@ -197,8 +198,37 @@ figcaption {
   font-size: 0.75em;
 }
 .el-hidden {
-  transition: all 0.2s ease-in-out;
-  opacity: 0;
+  /*transition: all 0.2s ease-in-out;
+  opacity: 0;*/
+  display: none;
+}
+#modal-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #3c3c3c;
+  color: white;
+  text-align: center;
+}
+#modal-image:before {
+  content: 'Click anywhere to close this window';
+}
+#modal-image figure {
+  margin: 0;
+}
+#modal-image img {
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
 }
 
 @media screen and (min-width: 500px) {
