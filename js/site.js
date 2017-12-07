@@ -53,6 +53,17 @@ $.noConflict();
       $(modal).removeClass('el-hidden');
     }
 
+    /* add latest commit history from github to footer */
+    $.get('https://api.github.com/repos/jpaldana/itmd-361-project-3/commits?per_page=1')
+      .done(function(response) {
+        var commit = " Last commit was: " + "<a href='" + response[0]['html_url'] + "'>" + 
+          response[0]['commit']['message'] + "</a>.";
+        $('#footer p').append(commit);
+      })
+      .fail(function() {
+        console.log('Failed to get latest github commit');
+      });
+
     $('body').append(button)
       .append(modal);
   });
